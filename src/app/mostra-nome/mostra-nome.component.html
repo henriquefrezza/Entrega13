@@ -1,0 +1,11 @@
+<div class="container">
+  
+    <form>
+      <div class="form-group">
+        <label for="nomeInput">Nome</label>
+        <input #nomeInput type="text" class="form-control" id="nomeInput" placeholder="Digite um nome">
+      </div>
+    </form>
+    <button type="button" class="btn btn-primary btn-block" (click)="armazenaNome(nomeInput.value)">Armazenar</button>
+    <div class="alert alert-primary mt-3 px-3" >{{nome}}</div>
+  </div>

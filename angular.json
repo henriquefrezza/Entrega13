@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -88,7 +89,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css"              
             ],
             "scripts": []
           }
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fatec-ipi-sabado-projeto-nome"
+    }
+  },
+  "defaultProject": "fatec-ipi-sabado-projeto-nome",
+  "cli": {
+    "analytics": "366d3730-48f7-4f98-b361-e6db9e5135dd"
+  }
 }
